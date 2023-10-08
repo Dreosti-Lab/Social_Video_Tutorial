@@ -9,7 +9,8 @@ How do you extract (social) behaviour from an image (or sequence of images, i.e.
 ## Background
 We will use Python to open, process, and save images/videos of animals engaged in social interactions.
 
-You will need to install Visual Studio Code and the Pyton extension.
+You will need to install Visual Studio Code and the Pyton extension. You can follw the installation instructions here:
+https://code.visualstudio.com/docs/python/python-tutorial
 
 ## Setup Python
 
@@ -25,7 +26,7 @@ source SVT/bin/activate
 - Install useful Python libraries
 
 ```bash
-pip install numpy imageio[ffmpeg]
+pip install numpy imageio[ffmpeg] scikit-image 
 ```
 
 ### Examples

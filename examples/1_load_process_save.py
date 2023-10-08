@@ -6,7 +6,7 @@ import imageio.v3 as iio
 
 # Set paths
 input_path = '_data/arena_still.png'
-output_path = '_data/output.png'
+output_path = '_tmp/output.png'
 
 # Load image from file
 image = iio.imread(input_path)

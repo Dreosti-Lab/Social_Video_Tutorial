@@ -1,12 +1,12 @@
 # Load video, compute median pixel values
 
 # Import libraries
-import imageio.v3 as iio
 import numpy as np
+import imageio.v3 as iio
 
 # Set paths
 input_path = '_data/arena_video.avi'
-output_path = '_data/output.png'
+output_path = '_tmp/output.png'
 
 # Load video (and metadata)
 video_metadata = iio.immeta(input_path, exclude_applied=False)

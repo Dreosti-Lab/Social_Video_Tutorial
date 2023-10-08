@@ -7,7 +7,7 @@ import imageio.v3 as iio
 # Set paths
 foreground_path = '_data/arena_still.png'
 background_path = '_data/arena_empty.png'
-output_path = '_data/output.png'
+output_path = '_tmp/output.png'
 
 # Load image from file
 foreground_image = iio.imread(foreground_path)
