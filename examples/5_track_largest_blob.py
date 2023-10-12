@@ -43,7 +43,9 @@ for i in range(num_frames):
     id = 0
     for blob in blobs:
         if blob.area > largest_area:
-            largest_id = 0
+            largest_id = id
+            largest_area = blob.area
+        id = id + 1
     largest_blob = blobs[largest_id]
 
     # Report
